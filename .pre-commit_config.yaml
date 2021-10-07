@@ -1,6 +1,6 @@
 repos:
 
-  repos: local
+  repo: local
 
     hooks:
 
