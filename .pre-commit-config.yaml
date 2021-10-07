@@ -6,3 +6,10 @@ repos:
           entry: python
           language: system
           args: [precommit_test.py]
+
+        - id: MyTests2
+          name: Run my tests2
+          entry: python
+          language: system
+          stages: [push]
+          args: [prepush_test.py]
