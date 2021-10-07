@@ -8,8 +8,15 @@ repos:
           args: [precommit_test.py]
 
         - id: MyTests2
-          name: Run my tests2
+          name: Run my tests 2
           entry: python
           language: system
           stages: [push]
           args: [prepush_test.py]
+
+        - id: MyTests3
+          name: Run my tests 3
+          entry: python
+          language: system
+          stages: [commit-msg]
+          args: [precommitmsg_test.py]
