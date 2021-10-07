@@ -1,10 +1,9 @@
 repos:
-
-  repo: local
+  - repo: local
 
     hooks:
 
-        id: MyTests
+        - id: MyTests
 
           name: Run my tests
 
