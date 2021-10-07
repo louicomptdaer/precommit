@@ -20,3 +20,10 @@ repos:
           language: system
           stages: [commit-msg]
           args: [precommitmsg_test.py]
+
+        - id: MyTests4
+          name: Run my tests 4
+          entry: python
+          language: system
+          stages: [post-commit]
+          args: [postcommit_test.py]
