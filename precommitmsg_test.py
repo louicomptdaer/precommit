@@ -1,1 +1,1 @@
-print ("Command push")
+print ("Command commit message")
